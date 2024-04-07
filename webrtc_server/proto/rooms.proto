@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package rooms;
+
+service Rooms{
+    rpc CreateRoom (CreateRoomRequest) returns (CreateRoomResponse);
+}
+
+message CreateRoomRequest {
+    string password = 1;
+    string username = 2;
+    bool video = 3;
+    bool audo = 4;
+}
+
+message CreateRoomResponse {
+
+}

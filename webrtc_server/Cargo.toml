@@ -1,0 +1,17 @@
+[package]
+name = "open_rooms"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dotenv = "0.15.0"
+prost = "0.12.3"
+tokio = "1.37.0"
+tonic = "0.11.0"
+uuid = "1.8.0"
+webrtc = "0.10.1"
+
+[build-dependencies]
+tonic-build = "0.11"
